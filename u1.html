@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejas Yadav - Robotics Engineer Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 2em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 1em;
+      transition: transform 0.3s ease;
+    }
+    header img:hover {
+      transform: scale(1.1);
+    }
+    header .header-content {
+      flex-grow: 1;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 0.5em 0 1em;
+      font-style: Arial;
+      color: #070707;
+    }
+    nav {
+      background-color: black;
+      padding: 1em 0;
+      border-radius: 20px; /* Rounded corners for the nav section */
+      margin: 10px auto;
+      width: 90%;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1em;
+      color: #de6f19;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s, transform 0.3s;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.5em 1em;
+      border-radius: 15px; /* Rounded corners for nav links */
+    }
+    nav a:hover {
+      color: #FFFFFF;
+      transform: scale(1.1);
+    }
+
+    /* Section Styles */
+    section {
+      padding: 3em 2em;
+      text-align: center;
+      background-color: #000000; /* Black background for sections below nav */
+      color: #FFFFFF; /* Text color set to white */
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 1em;
+      color: #FFFFFF; /* Headers are now white */
+      border-bottom: 2px solid #61dafb;
+      display: inline-block;
+      padding-bottom: 0.5em;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .projects-grid div {
+      background: #fff;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .projects-grid div h3 {
+      margin: 0 0 0.5em;
+      color: #de6f19; /* Project titles in orange */
+    }
+
+    .projects-grid div p {
+      color: #000000; /* Project descriptions in black */
+    }
+
+    .skills-grid, .achievements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .skills-grid div, .achievements-grid div {
+      background: #fff;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-weight: bold;
+      color: #000000; /* Skills and Achievements in black */
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.8em 1.5em;
+      margin-top: 1em;
+      background: #d27b5e;
+      color: rgb(0, 0, 0);
+      text-decoration: Bold;
+      border-radius: 5px;
+      font-size: 1.1em;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .btn:hover {
+      background: #21a1f1;
+      transform: scale(1.1);
+    }
+
+    footer {
+      background: #282c34;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="E:/Portfolio/Profile Pic/Profile.jpg" alt="Tejas Yadav">
+    <div class="header-content">
+      <h1>Tejas Yadav</h1>
+      <p>Innovative Aerial Robotics Engineer with a Vision</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div>
+        <h3>Development of Micro Robots</h3>
+        <p>Designed Micro Robots for Detecting Oil Leakages in Aircraft and Rocket Engines, using Hydrocarbon Sensors and High Temperature Actuators.</p>
+      </div>
+      <div>
+        <h3>Automated Synchronous Jacking</h3>
+        <p>Developed a System for Automated Synchronous Jacking of an Aircraft, using Electro-Mechanical Jacks.</p>
+      </div>
+      <div>
+        <h3>Multimode Flight Transition Strategy</h3>
+        <p>Developed a VTOL-STOL UAV, Tested and used MATLAB Simulation to Simulate Flying and Obstacle Avoidance for Error Corrections.</p>
+      </div>
+      <div>
+        <h3>Jet Engine Alignment</h3>
+        <p>Used Single Robotic Arm for Precise Jet Engine Alignment using Robot Kinematics.</p>
+      </div>
+      <div>
+        <h3>Martian Rover Development</h3>
+        <p>Currently Working on Developing a Robust and Efficient Martian Rover.</p>
+      </div>
+      <div>
+        <h3>Automated Fire Detection and Suppression Systems</h3>
+        <p>Designed an automated system to detect and suppress fires in industrial environments.</p>
+      </div>
+      <div>
+        <h3>Miniature Automated Production Systems</h3>
+        <p>Created a small-scale automated production line prototype for industrial use cases.</p>
+      </div>
+      <div>
+        <h3>Robotic Inchworm Design</h3>
+        <p>Designed and simulated a robotic inchworm capable of precise linear movement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>CAD</div>
+      <div>SolidWorks</div>
+      <div>Fusion 360</div>
+      <div>Python (Basic)</div>
+      <div>Project Management</div>
+      <div>Electronics Hardware</div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-grid">
+      <div>National UAV Workshop Head</div>
+      <div>Volunteers Manager (Wushu Championship)</div>
+      <div>Aeronautical Engineer’s Regal Association Member</div>
+      <div>GMRT-Pune Innovation Award</div>
+      <div>IITM-Pune Innovation Award</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tejasyadav9143@gmail.com">tejasyadav9143@gmail.com</a></p>
+    <p>Phone: <a href="tel:+917840945966">+91-7840945966</a></p>
+    <a href="https://www.linkedin.com/in/tejas-yadav-6197b3249/" class="btn" target="_blank">LinkedIn</a>
+    <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" class="btn" target="_blank">Naukri</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Tejas Yadav. All rights reserved.</p>
+  </footer>
+</body>
+</html>
